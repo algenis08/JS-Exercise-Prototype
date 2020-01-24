@@ -105,10 +105,11 @@ Baby.prototype.play = function() {
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. this is not a unique programining feature to JS.
-  2. a pronoum to use in place of an object.
-  3. givis you the object context
-  4. this has nothing to do where the functionn is written, but where and when the function is called.
+  1. Global binding - prints as a window console object
+  2. Explicit binding - indentifies .this by utilizing call/apply/bind 
+  3. New binding - it binds the objects and functions to the scope
+  4. Implicit binding - occurs when dot notation is used to invoke a function
+  
 */
 
 ///////// END OF CHALLENGE /////////
